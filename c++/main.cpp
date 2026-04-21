@@ -7,7 +7,9 @@
 #include <string>
 #include <vector>
 
-bool isFullSquare(int num) { return (num == std::pow(std::sqrt(num), 2)); }
+bool isFullSquare(int num) {
+	return (num == std::pow(std::floor(std::sqrt(num)), 2));
+}
 bool toPalindrome(std::string &str);
 int countUniqEmais(const std::vector<std::string> &emails);
 

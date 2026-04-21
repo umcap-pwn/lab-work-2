@@ -1,7 +1,10 @@
 section .data
-    arr     dq 81, 17, 36, 25, 36, 99, 144
+    arr     dq 65535, 6553565135, 6553565535, 6553565535, 65535, 65535, 65535
     arr_len dq 7
     fmt     db "Result: %d", 10, 0
+
+
+section .bss
 
 section .text
     global main
