@@ -1,0 +1,5 @@
+test.email+tag@example.com, testemail@example.com, test.email@example.com
+user.name+tag+extra@domain.com, username@domain.com
+a.b@example.com, ab@example.com, a.b.c@example.com
+simple@test.com
+multiple+dots.test@example.com, multipledottest@example.com
